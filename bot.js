@@ -1,6 +1,5 @@
 const Discord = require("discord.js");
 const RichEmbed = require("discord.js");
-client.user.setGame(Rules Only 🚫 , "https://www.twitch.tv/Amr");
 client.on('message', message => {
             if (message.content.startsWith("/rules")) {
      let embed = new Discord.RichEmbed()
